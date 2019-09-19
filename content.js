@@ -11,6 +11,5 @@ const trackNewContent = (body) => {
 
 const removeTripleByteAds = () => {
   const tripleByteAds = document.querySelectorAll("div[data-author='Triplebyte_official']");
-  console.log(tripleByteAds)
   tripleByteAds.forEach((ad) => ad.remove());
 }
