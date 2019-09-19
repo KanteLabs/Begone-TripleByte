@@ -4,7 +4,7 @@
   "author": "KanteLabs",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": ["activeTab"],
+  "permissions": ["https://www.reddit.com/*, https://old.reddit.com/*"],
   "content_scripts": [
     {
       "matches": ["*://*/*"],
